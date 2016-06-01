@@ -46,7 +46,7 @@ public class TestActivity extends Activity {
         baiduMap.setMyLocationEnabled(true);
 
 
-
+        //悬浮在地图上面的标注
 
         ImageView imageView = (ImageView) findViewById(R.id.center_tip);
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.mipmap.icon_markb);
