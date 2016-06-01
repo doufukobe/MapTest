@@ -54,7 +54,7 @@ public class TestActivity extends Activity {
         imageView.setPadding(0,0,0,height);
         imageView.setImageBitmap(bitmap);
 
-
+        //发起定位
         mLocationClient = new LocationClient(getApplicationContext());
 
         initLocation();
